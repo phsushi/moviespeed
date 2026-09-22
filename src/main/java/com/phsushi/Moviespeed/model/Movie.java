@@ -14,7 +14,7 @@ public class Movie {
     private Float rating;
     private String director;
     private String synopsis;
-    private LocalDate realeaseDate;
+    private LocalDate releaseDate;
 
     public Movie() {
     }
@@ -25,7 +25,7 @@ public class Movie {
         this.rating = rating;
         this.director = director;
         this.synopsis = synopsis;
-        this.realeaseDate = realeaseDate;
+        this.releaseDate = realeaseDate;
     }
 
     public Long getId_movie() {
@@ -68,12 +68,12 @@ public class Movie {
         this.synopsis = synopsis;
     }
 
-    public LocalDate getRealeaseDate() {
-        return realeaseDate;
+    public LocalDate getReleaseDate() {
+        return releaseDate;
     }
 
-    public void setRealeaseDate(LocalDate realeaseDate) {
-        this.realeaseDate = realeaseDate;
+    public void setReleaseDate(LocalDate realeaseDate) {
+        this.releaseDate = realeaseDate;
     }
 
 
