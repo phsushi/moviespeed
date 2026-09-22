@@ -28,7 +28,7 @@ public class MovieController {
    }
 
    @DeleteMapping("/{id}")
-    public void deleteMovie(@RequestBody Long id){
+    public void deleteMovie(@PathVariable Long id){
         movieService.deleteMovie(id);
    }
 }
